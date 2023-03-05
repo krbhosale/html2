@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <div>
+    <form action="./index2.html" method="get" target="_self" enctype="multipart/form-data">
+        <label><b>Name :</b> 
+            <input type="text" name="Name"  placeholder="Enter Name" required></label>
+        <br>
+        <br>
+
+        <label><b>Email :</b>
+            <input type="email" name="Email"  placeholder="Enter Email" required></label>
+        <br>
+        <br>
+
+        <label><b>Password :</b>
+            <input type="password" name="Password" placeholder="Enter Password" required></label>
+        <br>
+        <br> 
+        
+        <label><b>Language :</b> 
+            <br>
+            <input type="radio" name="Language" value="React"required>
+            React
+            <br>
+            <input type="radio" name="Language" value="Angular"required>
+            Angular
+            <br>
+            <input type="radio" name="Language" value="Vue"required>
+            Vue
+            <br>
+        </label>
+
+        <label><b>Course :</b>
+            <br> 
+            <input type="checkbox" name="Course"  value="MEARN">
+            MEARN
+            <br>
+            <input type="checkbox" name="Course"  value="MEAN">
+            MEAN
+            <br>
+            <input type="checkbox" name="Course"  value="MEVN">
+            MEVN
+            <br>
+        </label>
+        <br>
+
+        <label><b>Field :</b>
+            <select name="Field" required>
+                <option value="Front End">Front End</option>
+                <option value="Back End">Back End</option>
+                <option value="Full Stack">Full Stack</option>
+            </select>
+        </label>
+        <br>
+        
+        <label><b>Bio :</b>
+            <br> 
+            <textarea name="Bio" rows="6" cols="30" placeholder="Enter Bio"></textarea>
+        </label>
+        <br>
+
+        <label><b>Phone Number :</b> 
+            <input type="tel" name="Phone Number"  placeholder="Enter Phone Number" required >
+        </label>
+        <br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+        <h2>TABLES</h2>
+        <a href="./Tables.html">Click Here</a>
+
+    </form>
+    </div>
+
+
+    
+</body>
+</html>
